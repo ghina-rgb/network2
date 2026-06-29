@@ -1,0 +1,4 @@
+/home/ghina/client-server/build/CMakeFiles/myclient.dir
+/home/ghina/client-server/build/CMakeFiles/myserver.dir
+/home/ghina/client-server/build/CMakeFiles/edit_cache.dir
+/home/ghina/client-server/build/CMakeFiles/rebuild_cache.dir
