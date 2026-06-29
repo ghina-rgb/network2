@@ -16,13 +16,13 @@ boost::asio::io_context io_context;
 
   
 
-tcp::resolver resolver(boost::asio::io_context); 
+tcp::resolver resolver(io_context); 
 
 tcp::resolver::results_type endpoints = resolver.resolve("127.0.0.1", "17"); 
 
   
 
-tcp::socket socket(boost::asio::io_context); 
+tcp::socket socket(io_context); 
 
 boost::asio::connect(socket,endpoints); 
 
